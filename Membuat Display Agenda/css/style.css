@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Ruluko');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+div#konten{
+    background-color: #69d2e7b4;
+    height: 86px;
+}
+h3#h3Konten{
+    margin-top: 10px;
+}
+div#kontenAgenda{
+    background-image: url('../img/group-business-people-having-meeting.jpg');
+    background-size: cover;
+}
+div#duaKonten{
+    
+}
+div#card{
+    border: 2px solid black;
+    height: 189.6px;
+}
+div#card:nth-child(odd){
+    background-color: #69d2e7;
+}
+div#card:nth-child(even){
+    background-color: #a7dbd8;
+}
+#watch {
+    font-family: 'Ruluko', sans-serif;
+    color: rgb(255, 229, 209);
+    font-size: 2.6vw;
+    -webkit-text-stroke: 3px rgb(85, 85, 85);
+}
