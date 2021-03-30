@@ -5,28 +5,33 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 div#konten{
-    background-color: #69d2e7b4;
+    background-color: #69d2e7;
     height: 86px;
 }
 h3#h3Konten{
     margin-top: 10px;
 }
-div#kontenAgenda{
-    background-image: url('../img/group-business-people-having-meeting.jpg');
-    background-size: cover;
+div#agendaSekarang{
+    font-weight: bold;
+    height: 30rem;
+    background-color: #94ebcd59;
 }
-div#duaKonten{
-    
+li#listAgendaSekarang{
+    background-color: #94ebcd59;
+}
+div#agendaBerikutnya{
+    height: 18.1rem;
 }
 div#card{
     border: 2px solid black;
-    height: 189.6px;
+    height: 285px;
 }
+
 div#card:nth-child(odd){
-    background-color: #69d2e7;
+    background-color: #69d2e794;
 }
 div#card:nth-child(even){
-    background-color: #a7dbd8;
+    background-color: #a7dbd888;
 }
 #watch {
     font-family: 'Ruluko', sans-serif;
