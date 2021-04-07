@@ -1,39 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ruluko');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Segoe Print');
-<<<<<<< HEAD
-
-body{
-    font-family: 'Roboto', sans-serif;
-}
-h2#fontStyleBappeda{
-    font-family: 'Segoe Print';
-}
-div.konten{
-    background-color: yellow;
-}
-div.jamsekarang{
-    background-color: aqua;
-}
-#watch {
-    font-family: 'Ruluko', sans-serif;
-    color: rgb(255, 229, 209);
-    font-size: 2.6vw;
-    -webkit-text-stroke: 3px rgb(85, 85, 85);
-}
-div#cardAgenda{
-    border: 2px solid black;
-}
-li#daftarAgenda{
-    background-color: aqua;
-}
-div#infokehadiran{
-    background-color: yellow;
-}
-div#kontenAgendaKegiatan{
-    background-color: coral;
-}
-=======
 @import url('https://fonts.googleapis.com/css?family=Lucida Sans');
 @import url('https://fonts.googleapis.com/css?family=Rockwell');
 
@@ -79,4 +46,3 @@ div#kontenAgendaKegiatan {
 	padding: 50px;
 	padding-bottom: 80px;
 }
->>>>>>> 117199e (hasil akhir display)
