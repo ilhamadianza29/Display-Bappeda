@@ -67,7 +67,7 @@ div#cardAgenda {
 	box-shadow: 8px 8px 5px rgb(82, 82, 82);
 }
 li#daftarAgenda {
-	background-color: rgb(240, 255, 32);
+	background-color: rgb(245, 245, 245);
 }
 
 div#infokehadiran {
@@ -75,7 +75,7 @@ div#infokehadiran {
 }
 
 div#kontenAgendaKegiatan {
-	background-color: rgb(255, 118, 26);
+	background-color: rgb(255, 102, 0);
 	padding: 50px;
 	padding-bottom: 80px;
 }
