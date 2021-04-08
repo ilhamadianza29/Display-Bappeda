@@ -14,13 +14,21 @@ h2#fontStyleBappeda {
 h2#fontStyleAgenda {
 	font-family: 'Lucida Sans';
     font-weight: 900;
+	color: #8c0106;
+}
+h4#fontJudulKegiatan{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h4#fontPenanggungJawab{
+	font-size: 20px;
 }
 div.konten {
-	background-color: red;
+	background-color: #f23a3a;
 }
 
 div.jamsekarang {
-	background-color: rgb(238, 255, 0);
+	background-color: #f3d93a;
 }
 #watch {
 	font-family: 'Ruluko', sans-serif;
@@ -30,19 +38,21 @@ div.jamsekarang {
 }
 
 div#cardAgenda {
+	background-color: #ef595a;
+	padding: 20px;
 	border: 2px solid black;
+	border-radius: 8%;
 	box-shadow: 8px 8px 5px rgb(82, 82, 82);
 }
 li#daftarAgenda {
-	background-color: rgb(245, 245, 245);
+	background-color: #ef595a;
 }
-
-div#infokehadiran {
-	background-color: red;
-}
-
 div#kontenAgendaKegiatan {
-	background-color: rgb(255, 102, 0);
-	padding: 50px;
+	background-color: #fddedb;
+	padding: 30px;
 	padding-bottom: 80px;
 }
+div#infokehadiran {
+	background-color: #f23a3a;
+}
+
