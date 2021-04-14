@@ -228,7 +228,7 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="<?= base_url(); ?>controllersagendabappeda/data/" class="nav-link">
+                                <a href="" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>DataTables</p>
                                 </a>
