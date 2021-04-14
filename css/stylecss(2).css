@@ -43,6 +43,8 @@ div#cardAgenda {
 	border: 2px solid black;
 	border-radius: 8%;
 	box-shadow: 8px 8px 5px rgb(82, 82, 82);
+	margin-right: auto;
+	margin-left:  auto;
 }
 li#daftarAgenda {
 	background-color: #ef595a;
