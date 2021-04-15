@@ -1,9 +1,9 @@
 <?php
 
-class model_db extends CI_Model{
+class Model_DB extends CI_Model{
     public function tampil_data()
     {
-        return $this->db->__get('adminagendakegiatan')->result_array();
+        return $this->db->get('adminagendakegiatan')->result_array();
     }
 }
 

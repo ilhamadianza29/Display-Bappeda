@@ -3,11 +3,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class ControllersAgendaBappeda extends CI_Controller{
 
-
-
-    public function index()
+    public function __construct()
     {
-        $this->load->model('model_db');
+        parent::__construct();
+        $this->load->model('Model_DB');
+    }
+
+    function index()
+    {
+        
         $data['data_agenda'] = $this->Model_DB->tampil_data();
 
         $this->load->view('headerfooter/header.php');
@@ -15,11 +19,12 @@ class ControllersAgendaBappeda extends CI_Controller{
         $this->load->view('headerfooter/footer.php');
     }
 
-
+}
     // public function data()
     // {
     //     $this->load->view('headerfooter/header.php');
     //     $this->load->view('data.php');
     //     $this->load->view('headerfooter/footer.php');
     // }
-}
+
+?>
